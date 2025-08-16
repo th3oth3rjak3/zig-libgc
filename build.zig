@@ -88,3 +88,6 @@ pub fn build(b: *std.Build) void {
         run_step.dependOn(&run_cmd.step);
     }
 }
+
+// Expose gc module for downstream projects
+b.installModule("gc", module);
