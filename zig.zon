@@ -1,0 +1,9 @@
+.{
+    .name = "zig-libgc",
+    .version = "0.0.0",
+    .dependencies = .{},
+    .paths = .{
+        // Expose the library under the module name `libgc`
+        .libgc = "src",
+    },
+}
