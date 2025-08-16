@@ -2,7 +2,5 @@
     .name = .zig_libgc,
     .version = "0.0.0",
     .dependencies = .{},
-    .paths = .{
-        .libgc = "src",
-    },
+    .paths = .{ "src" },
 }
